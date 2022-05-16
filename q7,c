@@ -1,0 +1,28 @@
+/*
+
+*/
+
+#include <stdio.h>
+
+int main(){
+
+    int C = 1;
+    int i = 0;
+    int j = 0;
+
+    for(i=1; i<=16;i++){
+        C = 1;
+        for(j=1; j<=i;j++){
+            C =  j*C;
+
+        }
+        
+            printf("\n%d! = %d\n",i,C);
+
+    }
+
+    
+    return 0;
+}
+
+// é impossivel definir um numero correspondente ao fatorial de 15 pois existem mais digitos do que é possivel guardar
